@@ -11,7 +11,7 @@ For this assignment i have created a QR code that will navigate to my home page 
 
 1. QR code for my profile is below mentioned
 
-![SamuelSudeepAyyala git profile](./ouput_image/QRCode_20241103073216.png)
+![Akhil-Pendekanti git profile](./ouput_image/QRCode_20241103073216.png)
 
 
 2. the log of successfully creating the QR code below.
@@ -37,7 +37,7 @@ Runs your QR code generator application in detached mode (`-d`) with a container
 
 ```sh
 docker run -d --name qr-run \
-  -e QR_DATA_URL='https://github.com/SamuelSudeepAyyala/' \
+  -e QR_DATA_URL='https://github.com/Akhil-Pendekanti/' \
   -e QR_CODE_DIR='qr_codes' \
   -e QR_CODE_FILENAME='profileQR.png' \
   -e FILL_COLOR='black' \
@@ -70,7 +70,7 @@ A comprehensive command that configures the QR code settings and mounts volumes 
 
 ## Setting the arg for the url from the terminal
 ```sh
-docker run -v .:/app qrcode --url https://github.com/SamuelSudeepAyyala/
+docker run -v .:/app qrcode --url https://github.com/Akhil-Pendekanti/
 ```
 This is how you would set the url for the qr code
 ### Basic Docker Commands Explained
